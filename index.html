@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XBuilds</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="icon" href="office.png">
+
+</head>
+<body>
+
+<!---start nav bar page code---->
+<section id="nav-bar">
+    <span class="second-bar">
+
+        <div id="logo-box">
+            <img src="office.png" class="logo-pic">
+            <h1 class="web-name">XBUILDS</h1>
+
+            <button id="tap" onclick="nav()" onmouseenter="btn()"></button>
+        </div>
+
+
+        <div id="nav_box">
+            <ul class="ul-list">
+
+                <li class="nav-list"><a href="#homepic" class="anchor-nav">Home</a></li>
+                <li class="nav-list"><a href="#about-box" class="anchor-nav">About</a></li>
+                <li class="nav-list"><a href="#service-page" class="anchor-nav">Services</a></li>
+
+                <li class="nav-list" id="pg-link"><a href="#" class="anchor-nav" id="upper" onclick="upper()">Pages &#11206;
+
+
+                    <div class="page-box">
+                        <ul class="pg-list">
+                            <li class="list-pg"><a href="#dream-project" class="pg-anc">Our Project</a></li>
+                            <li class="list-pg"><a href="#team-page" class="pg-anc">The Team</a></li>
+                            <li class="list-pg"><a href="#client-page" class="pg-anc">Testimonal</a></li>
+                            <li class="list-pg"><a href="#blog-page" class="pg-anc">Blog Grid</a></li>
+                        </ul>
+                    </div>
+                </a></li>
+
+
+                <li class="nav-list"><a href="#contact-pge" class="anchor-nav">Contact</a></li>
+
+            </ul>
+        </div>
+
+
+
+        <div id="get-qoute">
+            <ul class="ul-list">
+                <li class="nav-list"><a href="#quote-page" class="anchor-get">Get Quote -></a></li>
+            </ul>
+        </div>
+
+    </span>
+</section>
+
+<!---end nav bar page code---->
+
+
+
+
+<!---start home page coding---->
+<section id="homepic">
+    <div class="home-color">
+        <span class="home-area">
+
+            <div class="work-pic"></div>
+
+            <p class="home-txt">BUILD YOUR DREAM <br> HOUSE WITH US</p>
+
+            <a href="#quote-page"><button class="quote-btn">GET A QUOTE</button></a>
+
+            <div class="click-btn">
+                <button  id="right" onclick=""> &#60; </button>
+                <button  id="left" onclick=" zishan()"> &#62; </button>
+            </div>
+
+
+        </span>
+    </div>
+</section>
+<!---end start home page coding---->
+
+
+
+
+
+<!---start about page coding--->
+<section id="about-box">
+    <span class="about-area">
+
+        <div class="abt-txt">
+            <h1 class="abt-h2">WE ARE <font color="orangered">THE LEADER</font> IN CONSTRUCTION INDUSTRY</h1>
+
+            <p class="abt-p1">AT XBUILDS, WE TRANSCEND TRADITIONAL CONSTRUCTION BOUNDARIES,USHERING IN A 
+                NEW ERA OF ARCHITECTURAL BRILLIANCE.</p>
+
+            <p class="abt-p2">Welcome to XBUILDS, where we transform dreams into structures. At XBUILDS,
+                 we take pride in our commitment to services with a focus on quality, innovation, and client satisfaction. </p>
+
+            <ul style="list-style: none;">
+
+                <li class="abt-list"><font color="orangered">✓</font>  Perfect Planning</li>
+                <li class="abt-list"><font color="orangered">✓</font>  Profesional Workers</li>
+                <li class="abt-list"><font color="orangered">✓</font>  Frist Working Process</li>
+                <li class="abt-list"><font color="orangered">✓</font>  Best Product Use</li>
+
+            </ul>
+
+            <p class="abt-p3">Welcome to XBUILDS, where we transform dreams into structures. At XBUILDS,
+                we take pride in our commitment.</p>
+
+        </div>
+
+
+        <div class="abt-pic"></div>
+
+    </span>
+</section>
+<!---end about page coding--->
+
+
+
+
+
+
+<!---start services page coding--->
+<section id="service-page">
+    <span class="service-area">
+
+            <h1 class="service-h1">WE PROVIDE <font color="orangered">THE BEST </font><br> CONSTRUCTION SERVICES</h1>
+
+            <span class="service-box">
+                <div  class="service-size">
+
+                    <div class="work-icon i1"></div>
+
+                    <p class="work-name">BULIDING CONSTRUCTION</p>
+
+                    <p class="work-para">Welcome to XBUILDS, where we transform dreams into structures.
+                        we take pride in our services with a focus on quality.
+                    </p>
+
+                    <p class="work-read">READ MORE</p>
+                    
+                </div>
+            </span>
+
+
+            <span class="service-box">
+                <div  class="service-size one" >
+
+                    <div class="work-icon i2"></div>
+
+                    <p class="work-name">HOUSE RENOVATION</p>
+
+                    <p class="work-para">Welcome to XBUILDS, where we transform dreams into structures.
+                        we take pride in our services with a focus on quality.
+                    </p>
+
+                    <p class="work-read">READ MORE</p>
+                    
+                </div>
+            </span>
+
+            <span class="service-box">
+                <div  class="service-size two">
+
+                    <div class="work-icon i3"></div>
+
+                    <p class="work-name">ARCHITECTURE DESIGN</p>
+
+                    <p class="work-para">Welcome to XBUILDS, where we transform dreams into structures.
+                        we take pride in our services with a focus on quality.
+                    </p>
+
+                    <p class="work-read">READ MORE</p>
+                    
+                </div>
+            </span>
+
+            <span class="service-box">
+                <div  class="service-size three">
+
+                    <div class="work-icon i4"></div>
+
+                    <p class="work-name">INTERIOR DESIGN</p>
+
+                    <p class="work-para">Welcome to XBUILDS, where we transform dreams into structures.
+                        we take pride in our services with a focus on quality.
+                    </p>
+
+                    <p class="work-read">READ MORE</p>
+                    
+                </div>
+            </span>
+
+            <span class="service-box">
+                <div  class="service-size four">
+
+                    <div class="work-icon i5"></div>
+
+                    <p class="work-name">FIXING & SUPPORT</p>
+
+                    <p class="work-para">Welcome to XBUILDS, where we transform dreams into structures.
+                        we take pride in our services with a focus on quality.
+                    </p>
+
+                    <p class="work-read">READ MORE</p>
+                    
+                </div>
+            </span>
+
+            <span class="service-box">
+                <div  class="service-size five">
+
+                    <div class="work-icon i6"></div>
+
+                    <p class="work-name">PAINTING</p>
+
+                    <p class="work-para">Welcome to XBUILDS, where we transform dreams into structures.
+                        we take pride in our services with a focus on quality.
+                    </p>
+
+                    <p class="work-read">READ MORE</p>
+                    
+                </div>
+            </span>
+
+    </span>
+</section>
+<!---end services page coding--->
+
+
+
+
+
+
+<!--Get a quote page coding--->
+<section id="quote-page">
+    <span class="quote-area">
+
+        <div class="text-box">
+            <h1 class="quote-head">REQUEST A <font color="orangered">CALL BACK</font></h1>
+
+            <p class="quote-text">At Xbuilds, we believe that every construction project is a unique
+                 opportunity to create lasting value. From concept to completion, our comprehensive
+                  approach emphasizes open communication, transparent processes, and a relentless
+                  where we transform dreams into structures. we take pride in our services with a focus on quality
+                   pursuit of excellence. </p>
+
+        
+                <button class="btn-quote">GET A QUOTE</button>
+        </div>
+
+
+
+        <div class="form-box">
+            <form>
+                <input type="text" name="name" placeholder="Your Name" class="form-edit" required="required"> 
+
+                <input type="email" name="email" placeholder="Your Email" class="form-rgt" required="required"> <br>
+
+                <input type="tel" name="Mobile" placeholder="Mobile No" class="form-edit" maxlength="10">
+
+                <input type="datetime-local" name="call time" placeholder="Call" class="form-rgt"> <br>
+
+                <textarea name="message" placeholder="Message" id="message-bx"></textarea>
+
+                <button class="request-send">SUBMIT REQUEST</button>
+
+            </form>
+        </div>
+
+
+    </span>
+</section>
+<!--end Get a quote page coding--->
+
+
+
+
+
+<!--start dream project work--->
+<section id="dream-project">
+    <span class="project-area">
+
+        <h1 class="dream-h1">SOME OF OUR <font color="orangered">POPULAR</font><br> DREAM PROJECT</h1>
+
+
+<!--project renovation-->
+        <header class="project-pic">
+
+            <div class="project-bx pro-1">
+                <p class="text-project">ALL</p>
+            </div>
+
+            <div class="project-bx pro-2">
+                <p class="text-project">CONTRUCTION</p>
+            </div>
+
+            <div class="project-bx pro-3">
+                <p class="text-project">RENOVTION</p>
+            </div>
+
+        </header>
+<!--project renovation-->
+
+
+
+
+            <div class="dream-pic">
+                <div id="dream-one">
+                    <span class="postion-relate">
+                        <button  class="click" onclick="one()">+</button>
+                        <p class="pro-name">PROJECT NAME</p>
+                        <p class="pro-loc">Location, City, Country</p>
+                        
+                    </span>
+                </div>
+            </div>
+
+            <div class="dream-pic">
+                <div id="dream-two">
+                    <span class="postion-relate">
+                        <button  class="click" onclick="two()">+</button>
+                        <p class="pro-name">PROJECT NAME</p>
+                        <p class="pro-loc">Location, City, Country</p>
+                        
+                    </span>
+                </div>
+            </div>
+
+            <div class="dream-pic">
+                <div id="dream-three">
+                    <span class="postion-relate">   
+                        <button  class="click" onclick="three()">+</button>
+                        <p class="pro-name">PROJECT NAME</p>
+                        <p class="pro-loc">Location, City, Country</p>
+                       
+                    </span>
+                </div>
+            </div>
+
+
+
+
+            <div class="dream-pic">
+                <div id="dream-four">
+                    <span class="postion-relate">
+                        <button  class="click" onclick="four()">+</button>
+                        <p class="pro-name">PROJECT NAME</p>
+                        <p class="pro-loc">Location, City, Country</p>
+                        
+                    </span>
+                </div>
+            </div>
+
+            <div class="dream-pic">
+                <div id="dream-five">
+                    <span class="postion-relate">
+                        <button  class="click" onclick="five()">+</button>
+                        <p class="pro-name">PROJECT NAME</p>
+                        <p class="pro-loc">Location, City, Country</p>
+                        
+                    </span>
+                </div>
+            </div>
+
+            <div class="dream-pic">
+                <div id="dream-six">
+                    <span class="postion-relate">   
+                        <button  class="click" onclick="six()">+</button>
+                        <p class="pro-name">PROJECT NAME</p>
+                        <p class="pro-loc">Location, City, Country</p>
+                       
+                    </span>
+                </div>
+            </div>
+
+
+
+    </span>
+</section>
+<!--end dream project work--->
+
+
+
+
+
+<!--our team page code --->
+<section id="team-page">
+    <header class="team-area">
+
+        <h1 class="team-head">WE ARE PROFESSIONAL & <br> <font color="orangered">EXPERT</font> WORKERS</h1>
+
+        <div class="team-box">
+            <div class="team-pic">
+                <img src="team (4).jpg" class="worker-pic">
+
+                <p class="team-name">ZISHAN RAYEEN</p>
+                <p class="team-post">CEO & Founder</p>
+            </div>
+        </div>
+
+        <div class="team-box">
+            <div class="team-pic">
+                <img src="team (2).jpg" class="worker-pic">
+
+                <p class="team-name">SUMIT KUMAR</p>
+                <p class="team-post">Civil Enginner</p>
+            </div>
+        </div>
+
+        <div class="team-box">
+            <div class="team-pic">
+                <img src="team (3).jpg" class="worker-pic">
+
+                <p class="team-name">TAUSIF KASIF</p>
+                <p class="team-post">Interior Designer</p>
+            </div>
+        </div>
+
+        <div class="team-box">
+            <div class="team-pic">
+                <img src="team (1).jpg" class="worker-pic">
+
+                <p class="team-name">SOHEB RAYEEN</p>
+                <p class="team-post">Architecture Designer</p>
+            </div>
+        </div>
+
+
+    </header>
+</section>
+<!--end our team page code --->
+
+
+
+
+
+
+<!--our client say page code -->
+<section id="client-page">
+    <footer class="client-area">
+
+        <h1 class="client-head">WHAT OUR HAPPY <br> <font color="orangered">CLIENT</font> SAY!!!</h1>
+
+        <span class="client-pic"></span>
+
+
+        <div class="client-review">
+            <div class="review-bar">
+
+                <span class="scroller">
+                    <img src="client rev (1).jpg" id="bar-pic">
+
+                    <p class="client-p1">CLIENT NAME</p>
+                    <p class="client-p2">Profession</p>
+                    <p class="client-p3"><font color="orangered" size="5" face="verdana">"</font>I wanted to take a moment to express my gratitude and satisfaction
+                         with the outstanding services provided by XBuilds. As a client in need of construction
+                          expertise,</p>
+                </span>
+
+                <span class="scroller">
+                    <img src="client rev (3).jpg" id="bar-pic">
+
+                    <p class="client-p1">CLIENT NAME</p>
+                    <p class="client-p2">Profession</p>
+                    <p class="client-p3"><font color="orangered" size="5" face="verdana">"</font>I wanted to take a moment to express my gratitude and satisfaction
+                         with the outstanding services provided by XBuilds. As a client in need of construction
+                          expertise,</p>
+                </span>
+
+                <span class="scroller">
+                    <img src="client rev (2).jpg" id="bar-pic">
+
+                    <p class="client-p1">CLIENT NAME</p>
+                    <p class="client-p2">Profession</p>
+                    <p class="client-p3"><font color="orangered" size="5" face="verdana">"</font>I wanted to take a moment to express my gratitude and satisfaction
+                         with the outstanding services provided by XBuilds. As a client in need of construction
+                          expertise,</p>
+                </span>
+
+            </div>
+        </div>
+
+
+    </footer>
+</section>
+<!--end client say page code -->
+
+
+
+
+
+
+<!---blog page code start now-->
+<section id="blog-page">
+    <header class="blog-area">
+
+        <h1 class="blog-head">LATEST ARTICLES FROM <br> OUR <font color="orangered">BLOG POST</font></h1>
+
+
+        <div class="blog-box">
+            <div class="article-box">
+                <img src="blog pic (1).jpg" id="blog-pic">
+
+                <img src="article pic.jpg" class="art-pic">
+                <p class="man-name">Jhon Doe</p>
+                <p class="date-blg">01 Jan 2022</p>
+
+                <p class="art-name">"Crafting Dreams: Building Tomorrow's Spaces with XBuilds"</p>
+                <p class="blog-read">READ MORE</p>
+            </div>
+        </div>
+
+        <div class="blog-box">
+            <div class="article-box">
+                <img src="blog pic (4).jpg" id="blog-pic">
+
+                <img src="article pic.jpg" class="art-pic">
+                <p class="man-name">Jhon Doe</p>
+                <p class="date-blg">09 Mar 2022</p>
+
+                <p class="art-name">"Crafting Dreams: Building Tomorrow's Spaces with XBuilds"</p>
+                <p class="blog-read">READ MORE</p>
+            </div>
+        </div>
+
+        <div class="blog-box alag-bx">
+            <div class="article-box">
+                <img src="blog pic (3).jpg" id="blog-pic">
+                
+                <img src="article pic.jpg" class="art-pic">
+                <p class="man-name">Jhon Doe</p>
+                <p class="date-blg">05 oct 2022</p>
+
+                <p class="art-name">"Crafting Dreams: Building Tomorrow's Spaces with XBuilds"</p>
+                <p class="blog-read">READ MORE</p>
+            </div>
+        </div>
+
+    </header>
+</section>
+<!---blog page code end now-->
+
+
+
+
+
+<!---contact page code start--->
+<section id="contact-pge">
+    <span class="contact-area">
+
+        <div class="com-name">
+            <img src="office.png" class="cont-pic">
+            <h1 class="compnay-nem">XBUILDS</h1>
+
+            <p class="cont-message">At Xbuilds, we believe that every construction project is a unique
+                opportunity to create lasting value. From concept to completion</p>
+
+        <ul class="loc">
+            <li class="add"><img src="maps-and-flags.png" id="loca">Location, City, Country</li>
+            <li class="add"><img src="call.png" id="loca">+987 576 754</li>
+            <li class="add"><img src="email.png" id="loca">xbuildscompany.com</li>
+        </ul>
+
+        <footer class="social-box">
+            <div class="socila"><img src="twitter.png" class="social-pic"></div>
+            <div class="socila"><img src="facebook.png" class="social-pic"></div>
+            <div class="socila"><img src="linkedin.png" class="social-pic"></div>
+            <div class="socila"><img src="youtube.png" class="social-pic"></div>
+        </footer>
+
+        </div>
+
+
+
+
+        <div class="list-cont">
+            <div class="quick-link">
+
+                <p class="quick-head">QUICK LINKS</p>
+
+                <ul class="quick-ul">
+                    <li id="quick-d">> Home</li>
+                    <li id="quick-d">> About Us</li>
+                    <li id="quick-d">> Services</li>
+                    <li id="quick-d">> Page</li>
+                    <li id="quick-d">> Contact</li>
+                    <li id="quick-d">> Get Quote</li>
+                </ul>
+
+            </div>
+
+            <div class="pop-link">
+
+                <p class="quick-head">POPULAR LINKS</p>
+
+                <ul class="quick-ul">
+                    <li id="quick-d">> Our Project</li>
+                    <li id="quick-d">> The Team</li>
+                    <li id="quick-d">> Testimonal</li>
+                    <li id="quick-d">> Blog Grid</li>
+                </ul>
+
+            </div>
+            
+
+
+            <div class="newsleeter">
+                <p class="quick-head">NEWSLETTER</p>
+
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Email">
+                    <button id="sign" onclick="com()">SIGN UP</button>
+                </form>
+
+            </div>
+        </div>
+
+    </span>
+</section>
+<!---end contact page code --->
+
+
+
+
+<!--start last page code--->
+<section id="last-pg">
+    <footer class="last-area">
+
+        <p class="rights"><font color="orangered">© Xbuilds.</font> All Rights Reserved.</p>
+
+        <a href="#homepic"><div id="upper-box"></div></a>
+
+    </footer>
+</section>
+<!--end last page code--->
+
+
+<!--js link-->
+<script src="script.js"></script>
+<!--end js link-->
+</body>
+</html>
